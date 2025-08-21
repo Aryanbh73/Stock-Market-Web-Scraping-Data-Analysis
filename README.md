@@ -21,8 +21,9 @@ This project also demonstrates a complete data pipeline:
 
 ## Sample Dataset
 
-<img width="544" height="382" alt="st2" src="https://github.com/user-attachments/assets/6725727b-9379-4298-9b24-8bf44d65f292" />
 <img width="544" height="382" alt="st1" src="https://github.com/user-attachments/assets/1ba1d27e-5543-4da8-8443-104706fb4be5" />
+<img width="544" height="382" alt="st3" src="https://github.com/user-attachments/assets/2abbe4d4-ad50-4194-9e0a-94733b785112" />
+
 
 ## Insights from the Data
 
@@ -52,7 +53,7 @@ Higher trading volume + positive price change confirms the strength of a trend, 
 
 ### 3. Cross-Market Comparisons
 
-The dataset mixes US-based companies with Indian companies (e.g., 3M India), enabling cross-market insights.
+The dataset mixes US-based companies with Indian companies, enabling cross-market insights.
 
 US Tech stocks like Microsoft showed stronger momentum compared to Consumer staples like Coca-Cola, which moved more modestly.
 
@@ -76,11 +77,11 @@ Even basic moving average tracking could highlight when companies like Microsoft
 
 ## Project Structure
 
-├── stocks_ws.py       # Web scraping script
+├── stocks_ws.py         # Web scraping script
 
-├── stocks.xlsx        # Output dataset (scraped stock details)
+├── stocks.xlsx          # Output dataset (scraped stock details)
 
-└── README.md          # Project documentation
+└── README.md            # Project documentation
 
 ## Tech Stack
 
